@@ -20,14 +20,14 @@ python polyhydra.py # for training
 cd ../../ # go to nethack_shallow_embedding
 python test_submission.py # for evaluation
 ```
-#Transformer and SWA
+## Transformer and SWA
 ```bash
 cd nethack_shallow_embedding/nethack_baselines/torchbeast/
 python polyhydra.py # for training
 cd ../../ # go to nethack_shallow_embedding
 python test_submission.py # for evaluation
 ```
-#TD3
+## TD3
 ```bash
 ./nethack_td3_ddpg/train.sh # for training
 ./nethack_td3_ddpg/eval.sh # for evaluation
