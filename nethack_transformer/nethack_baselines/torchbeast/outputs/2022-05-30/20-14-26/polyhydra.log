@@ -1,0 +1,438 @@
+[2022-05-30 20:14:26,851][root][INFO] - name: null
+wandb: false
+project: nethack_challenge
+entity: user1
+group: group1
+mock: false
+single_ttyrec: true
+num_seeds: 0
+write_profiler_trace: false
+fn_penalty_step: constant
+penalty_time: 0.0
+penalty_step: -0.01
+reward_lose: 0
+reward_win: 100
+state_counter: none
+character: mon-hum-neu-mal
+mode: train
+env: challenge
+num_actors: 256
+total_steps: 1000000000.0
+batch_size: 32
+unroll_length: 80
+num_learner_threads: 1
+num_inference_threads: 1
+disable_cuda: false
+learner_device: cuda:0
+actor_device: cuda:0
+learning_rate: 0.0002
+grad_norm_clipping: 40
+alpha: 0.99
+momentum: 0
+epsilon: 1.0e-06
+entropy_cost: 0.001
+baseline_cost: 0.5
+discounting: 0.999
+normalize_reward: true
+model: baseline
+use_lstm: true
+hidden_dim: 256
+embedding_dim: 64
+layers: 5
+crop_dim: 9
+use_index_select: true
+restrict_action_space: true
+msg:
+  hidden_dim: 64
+  embedding_dim: 32
+load_dir: null
+
+[2022-05-30 20:14:26,862][root][INFO] - Symlinked log directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/latest
+[2022-05-30 20:14:26,865][root][INFO] - Logging results to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26
+[2022-05-30 20:14:26,865][root][INFO] - Creating archive directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/archives
+[2022-05-30 20:14:26,901][palaas/out][INFO] - Found log directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26
+[2022-05-30 20:14:26,902][palaas/out][INFO] - Saving arguments to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/meta.json
+[2022-05-30 20:14:26,902][palaas/out][INFO] - Saving messages to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/out.log
+[2022-05-30 20:14:26,903][palaas/out][INFO] - Saving logs data to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/logs.csv
+[2022-05-30 20:14:26,903][palaas/out][INFO] - Saving logs' fields to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/fields.csv
+[2022-05-30 20:14:26,985][root][INFO] - Using CUDA.
+[2022-05-30 20:14:27,025][root][INFO] - Using model baseline
+[2022-05-30 20:14:27,025][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,451][root][INFO] - Number of model parameters: 4437610
+[2022-05-30 20:14:30,451][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,503][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,503][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,503][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,503][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,504][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,508][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,508][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,508][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,509][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,509][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,509][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,509][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,509][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,515][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,517][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,516][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,517][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,517][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,517][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,518][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,518][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,518][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,519][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,521][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,521][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,524][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,524][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,524][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,524][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,525][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,526][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,526][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,526][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,527][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,539][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,543][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,547][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,547][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,578][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,579][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,581][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,581][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,582][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,582][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,581][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,582][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,581][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,589][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,590][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,590][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,590][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,580][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,584][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,586][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,586][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,586][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,581][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,587][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,587][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,587][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,587][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,585][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,588][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,586][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,611][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,611][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,622][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,623][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,616][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,626][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,627][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,628][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,632][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,632][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:30,664][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 20:14:35,501][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 5.0)
+[2022-05-30 20:14:40,507][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 10.0)
+[2022-05-30 20:14:45,510][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 15.0)
+[2022-05-30 20:14:50,516][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 20.0)
+[2022-05-30 20:14:55,521][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 25.0)
+[2022-05-30 20:15:00,524][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 30.0)
+[2022-05-30 20:15:05,530][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 35.0)
+[2022-05-30 20:15:10,534][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 40.0)
+[2022-05-30 20:15:15,540][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 45.0)
+[2022-05-30 20:15:20,547][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 50.1)
+[2022-05-30 20:15:25,553][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 55.1)
+[2022-05-30 20:15:30,559][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 60.1)
+[2022-05-30 20:15:35,563][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 65.1)
+[2022-05-30 20:15:40,566][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 70.1)
+[2022-05-30 20:15:45,573][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 75.1)
+[2022-05-30 20:15:50,579][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 80.1)
+[2022-05-30 20:15:55,585][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 85.1)
+[2022-05-30 20:16:00,592][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 90.1)
+[2022-05-30 20:16:05,598][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 95.1)
+[2022-05-30 20:16:10,601][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 100.1)
+[2022-05-30 20:16:15,606][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 105.1)
+[2022-05-30 20:16:20,610][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 110.1)
+[2022-05-30 20:16:25,616][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 115.1)
+[2022-05-30 20:16:30,622][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 120.1)
+[2022-05-30 20:16:35,626][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 125.1)
+[2022-05-30 20:16:40,632][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 130.1)
+[2022-05-30 20:16:45,638][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 135.1)
+[2022-05-30 20:16:50,642][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 140.1)
+[2022-05-30 20:16:55,648][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 145.2)
+[2022-05-30 20:17:00,655][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 150.2)
+[2022-05-30 20:17:05,658][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 155.2)
+[2022-05-30 20:17:10,662][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 160.2)
+[2022-05-30 20:17:15,669][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 165.2)
+[2022-05-30 20:17:20,675][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 170.2)
+[2022-05-30 20:17:25,681][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 175.2)
+[2022-05-30 20:17:30,686][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 180.2)
+[2022-05-30 20:17:35,692][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 185.2)
+[2022-05-30 20:17:40,698][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 190.2)
+[2022-05-30 20:17:45,704][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 195.2)
+[2022-05-30 20:17:50,710][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 200.2)
+[2022-05-30 20:17:55,716][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 205.2)
+[2022-05-30 20:18:00,718][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 210.2)
+[2022-05-30 20:18:05,724][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 215.2)
+[2022-05-30 20:18:10,726][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 220.2)
+[2022-05-30 20:18:15,729][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 225.2)
+[2022-05-30 20:18:20,731][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 230.2)
+[2022-05-30 20:18:25,737][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 235.2)
+[2022-05-30 20:18:30,742][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 240.2)
+[2022-05-30 20:18:35,748][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 245.3)
+[2022-05-30 20:18:40,754][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 250.3)
+[2022-05-30 20:18:45,761][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 255.3)
+[2022-05-30 20:18:50,767][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 260.3)
+[2022-05-30 20:18:55,773][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 265.3)
+[2022-05-30 20:19:00,780][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 270.3)
+[2022-05-30 20:19:05,786][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 275.3)
+[2022-05-30 20:19:10,792][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 280.3)
+[2022-05-30 20:19:15,799][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 285.3)
+[2022-05-30 20:19:20,805][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 290.3)
+[2022-05-30 20:19:25,811][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 295.3)
+[2022-05-30 20:19:30,818][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 300.3)
+[2022-05-30 20:19:35,824][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 305.3)
+[2022-05-30 20:19:40,830][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 310.3)
+[2022-05-30 20:19:45,837][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 315.3)
+[2022-05-30 20:19:50,843][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 320.3)
+[2022-05-30 20:19:55,849][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 325.4)
+[2022-05-30 20:20:00,854][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 330.4)
+[2022-05-30 20:20:05,860][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 335.4)
+[2022-05-30 20:20:10,867][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 340.4)
+[2022-05-30 20:20:15,870][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 345.4)
+[2022-05-30 20:20:20,876][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 350.4)
+[2022-05-30 20:20:25,883][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 355.4)
+[2022-05-30 20:20:30,889][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 360.4)
+[2022-05-30 20:20:35,895][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 365.4)
+[2022-05-30 20:20:40,901][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 370.4)
+[2022-05-30 20:20:45,908][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 375.4)
+[2022-05-30 20:20:50,914][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 380.4)
+[2022-05-30 20:20:55,920][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 385.4)
+[2022-05-30 20:21:00,926][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 390.4)
+[2022-05-30 20:21:05,930][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 395.4)
+[2022-05-30 20:21:10,936][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 400.4)
+[2022-05-30 20:21:15,943][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 405.4)
+[2022-05-30 20:21:20,949][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 410.5)
+[2022-05-30 20:21:25,954][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 415.5)
+[2022-05-30 20:21:30,958][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 420.5)
+[2022-05-30 20:21:35,962][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 425.5)
+[2022-05-30 20:21:40,968][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 430.5)
+[2022-05-30 20:21:45,974][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 435.5)
+[2022-05-30 20:21:50,980][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 440.5)
+[2022-05-30 20:21:55,987][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 445.5)
+[2022-05-30 20:22:00,993][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 450.5)
+[2022-05-30 20:22:05,998][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 455.5)
+[2022-05-30 20:22:11,004][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 460.5)
+[2022-05-30 20:22:16,010][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 465.5)
+[2022-05-30 20:22:21,014][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 470.5)
+[2022-05-30 20:22:26,020][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 475.5)
+[2022-05-30 20:22:31,026][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 480.5)
+[2022-05-30 20:22:36,030][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 485.5)
+[2022-05-30 20:22:41,032][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 490.5)
+[2022-05-30 20:22:46,038][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 495.5)
+[2022-05-30 20:22:51,043][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 500.5)
+[2022-05-30 20:22:56,049][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 505.6)
+[2022-05-30 20:23:01,056][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 510.6)
+[2022-05-30 20:23:06,062][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 515.6)
+[2022-05-30 20:23:11,068][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 520.6)
+[2022-05-30 20:23:16,074][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 525.6)
+[2022-05-30 20:23:21,081][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 530.6)
+[2022-05-30 20:23:26,087][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 535.6)
+[2022-05-30 20:23:31,093][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 540.6)
+[2022-05-30 20:23:36,099][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 545.6)
+[2022-05-30 20:23:41,102][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 550.6)
+[2022-05-30 20:23:46,108][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 555.6)
+[2022-05-30 20:23:51,114][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 560.6)
+[2022-05-30 20:23:56,120][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 565.6)
+[2022-05-30 20:24:01,122][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 570.6)
+[2022-05-30 20:24:06,128][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 575.6)
+[2022-05-30 20:24:11,134][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 580.6)
+[2022-05-30 20:24:16,140][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 585.6)
+[2022-05-30 20:24:21,146][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 254. Learner queue size: 0. Other stats: (train_seconds = 590.7)
+[2022-05-30 20:24:23,227][root][INFO] - Saving checkpoint to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/20-14-26/checkpoint.tar
+[2022-05-30 20:24:23,356][root][ERROR] - Exception in actorpool thread!

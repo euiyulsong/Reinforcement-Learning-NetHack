@@ -1,0 +1,8 @@
+README.md
+setup.py
+nest/nest_pybind.cc
+nest.egg-info/PKG-INFO
+nest.egg-info/SOURCES.txt
+nest.egg-info/dependency_links.txt
+nest.egg-info/requires.txt
+nest.egg-info/top_level.txt

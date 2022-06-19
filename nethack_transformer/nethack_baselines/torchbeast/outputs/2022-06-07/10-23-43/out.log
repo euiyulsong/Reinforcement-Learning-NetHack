@@ -1,0 +1,3 @@
+Saving logs data to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge2/nethack_baselines/torchbeast/outputs/2022-06-07/10-23-43/logs.csv
+Saving logs' fields to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge2/nethack_baselines/torchbeast/outputs/2022-06-07/10-23-43/fields.csv
+Updated log fields: ['_tick', '_time', 'step', 'mean_episode_return', 'mean_episode_step', 'total_loss', 'pg_loss', 'baseline_loss', 'entropy_loss', 'learner_queue_size', 'train_seconds']

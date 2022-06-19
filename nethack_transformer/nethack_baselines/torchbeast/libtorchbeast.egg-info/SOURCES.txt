@@ -1,0 +1,9 @@
+README.md
+setup.py
+libtorchbeast.egg-info/PKG-INFO
+libtorchbeast.egg-info/SOURCES.txt
+libtorchbeast.egg-info/dependency_links.txt
+libtorchbeast.egg-info/not-zip-safe
+libtorchbeast.egg-info/requires.txt
+libtorchbeast.egg-info/top_level.txt
+src/py/__init__.py

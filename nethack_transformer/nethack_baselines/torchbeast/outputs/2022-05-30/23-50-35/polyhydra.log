@@ -1,0 +1,327 @@
+[2022-05-30 23:50:35,585][root][INFO] - name: null
+wandb: false
+project: nethack_challenge
+entity: user1
+group: group1
+mock: false
+single_ttyrec: true
+num_seeds: 0
+write_profiler_trace: false
+fn_penalty_step: constant
+penalty_time: 0.0
+penalty_step: -0.01
+reward_lose: 0
+reward_win: 100
+state_counter: none
+character: mon-hum-neu-mal
+mode: train
+env: challenge
+num_actors: 256
+total_steps: 1000000000.0
+batch_size: 32
+unroll_length: 80
+num_learner_threads: 1
+num_inference_threads: 1
+disable_cuda: false
+learner_device: cuda:0
+actor_device: cuda:0
+learning_rate: 0.0002
+grad_norm_clipping: 40
+alpha: 0.99
+momentum: 0
+epsilon: 1.0e-06
+entropy_cost: 0.001
+baseline_cost: 0.5
+discounting: 0.999
+normalize_reward: true
+model: baseline
+use_lstm: true
+hidden_dim: 256
+embedding_dim: 64
+layers: 5
+crop_dim: 9
+use_index_select: true
+restrict_action_space: true
+msg:
+  hidden_dim: 64
+  embedding_dim: 32
+load_dir: null
+
+[2022-05-30 23:50:35,596][root][INFO] - Symlinked log directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/latest
+[2022-05-30 23:50:35,599][root][INFO] - Logging results to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35
+[2022-05-30 23:50:35,599][root][INFO] - Creating archive directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/archives
+[2022-05-30 23:50:35,634][palaas/out][INFO] - Found log directory: /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35
+[2022-05-30 23:50:35,634][palaas/out][INFO] - Saving arguments to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/meta.json
+[2022-05-30 23:50:35,635][palaas/out][INFO] - Saving messages to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/out.log
+[2022-05-30 23:50:35,635][palaas/out][INFO] - Saving logs data to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/logs.csv
+[2022-05-30 23:50:35,635][palaas/out][INFO] - Saving logs' fields to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/fields.csv
+[2022-05-30 23:50:35,670][root][INFO] - Using CUDA.
+[2022-05-30 23:50:35,701][root][INFO] - Using model baseline
+[2022-05-30 23:50:35,701][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,279][root][INFO] - Number of model parameters: 21275242
+[2022-05-30 23:50:39,280][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,500][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,503][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,505][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,506][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,512][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,512][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,514][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,515][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,515][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,514][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,518][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,520][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,524][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,513][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,528][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,529][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,530][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,535][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,537][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,551][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,555][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,573][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,575][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,575][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,574][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,569][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,575][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,572][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,570][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,576][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,576][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,576][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,571][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,578][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,577][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,577][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,578][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,578][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,619][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,621][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,622][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,622][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,628][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,613][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,614][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,629][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,629][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,629][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,629][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,631][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,615][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,617][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,612][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,618][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,620][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,640][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,655][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:39,655][nle.env.base][INFO] - Not saving any NLE data.
+[2022-05-30 23:50:44,498][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 5.0)
+[2022-05-30 23:50:49,505][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 10.0)
+[2022-05-30 23:50:54,511][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 15.0)
+[2022-05-30 23:50:59,517][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 20.0)
+[2022-05-30 23:51:04,524][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 25.0)
+[2022-05-30 23:51:09,530][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 30.0)
+[2022-05-30 23:51:14,534][root][INFO] - Step 0 @ 0.0 SPS. Inference batcher size: 255. Learner queue size: 0. Other stats: (train_seconds = 35.0)
+[2022-05-30 23:51:15,036][root][INFO] - Saving checkpoint to /home/jaelee/nethack/version_euiyulsong/neurips-2021-the-nethack-challenge/nethack_baselines/torchbeast/outputs/2022-05-30/23-50-35/checkpoint.tar
+[2022-05-30 23:51:15,279][root][ERROR] - Exception in actorpool thread!
